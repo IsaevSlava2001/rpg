@@ -37,40 +37,40 @@ namespace рпг
            Console.WriteLine("HP Разбойник," + AllCharacters[7].HP);
 
        }
-       static void CheckHell(List < Character > AllCharacters)
-       {
-           if (AllCharacters[0].HP <= 0)
-           {
-               AllCharacters[0].HP = 0;
-           }
-           if (AllCharacters[1].HP <= 0)
-           {
-               AllCharacters[1].HP = 0;
-           }
-           if (AllCharacters[2].HP <= 0)
-           {
-               AllCharacters[2].HP = 0;
-           }
-           if (AllCharacters[3].HP <= 0)
-           {
-               AllCharacters[3].HP = 0;
-           }
-           if (AllCharacters[4].HP <= 0)
-           {
-               AllCharacters[4].HP = 0;
-           }
-           if (AllCharacters[5].HP <= 0)
-           {
-               AllCharacters[5].HP = 0;
-           }
-           if (AllCharacters[6].HP <= 0)
-           {
-               AllCharacters[6].HP = 0;
-           }
-           if (AllCharacters[7].HP <= 0)
-           {
-               AllCharacters[7].HP = 0;
-           }
-       }
+       //static void CheckHell(List < Character > AllCharacters)
+       //{
+       //    if (AllCharacters[0].HP <= 0)
+       //    {
+       //        AllCharacters[0].HP = 0;
+       //    }
+       //    if (AllCharacters[1].HP <= 0)
+       //    {
+       //        AllCharacters[1].HP = 0;
+       //    }
+       //    if (AllCharacters[2].HP <= 0)
+       //    {
+       //        AllCharacters[2].HP = 0;
+       //    }
+       //    if (AllCharacters[3].HP <= 0)
+       //    {
+       //        AllCharacters[3].HP = 0;
+       //    }
+       //    if (AllCharacters[4].HP <= 0)
+       //    {
+       //        AllCharacters[4].HP = 0;
+       //    }
+       //    if (AllCharacters[5].HP <= 0)
+       //    {
+       //        AllCharacters[5].HP = 0;
+       //    }
+       //    if (AllCharacters[6].HP <= 0)
+       //    {
+       //        AllCharacters[6].HP = 0;
+       //    }
+       //    if (AllCharacters[7].HP <= 0)
+       //    {
+       //        AllCharacters[7].HP = 0;
+       //    }
+       //}
     }
 }

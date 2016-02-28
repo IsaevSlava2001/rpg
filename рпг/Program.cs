@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 namespace рпг
 {
     class Program
@@ -29,6 +28,10 @@ namespace рпг
             AllCharacters.Add(Shaman2);
             AllCharacters.Add(Rogue1);
             AllCharacters.Add(Rogue2);
+            
+            //while(Palladin1.HP!=0)
+            //{    if (Palladin1.HP==0)
+            //{
             Console.WriteLine("Кем будете бить?\n1:Палладин\n2:Жрец\n3:Шаман\n4:Разбойник");
             string a = Console.ReadLine();
             switch (a)
@@ -69,30 +72,116 @@ namespace рпг
                     Agressor.target = Palladin2;
                     Agressor.Attack();
                     Log.Update(AllCharacters);
+                    Player2();
 
                     break;
                 case "2":
                     Console.Clear();
-                    
+                     Agressor.target = Priest2;
+                    Agressor.Attack();
+                    Log.Update(AllCharacters);
+                    Player2();
 
                     break;
                 case "3":
                     Console.Clear();
-                    
+                     Agressor.target = Shaman2;
+                    Agressor.Attack();
+                    Log.Update(AllCharacters);
+                    Player2();
 
                     break;
                 case "4":
                     Console.Clear();
-                    
+                     Agressor.target = Rogue2;
+                    Agressor.Attack();
+                    Log.Update(AllCharacters);
+                    Player2();
 
                     break;
 
             }
 
         }
-       
+
+         static void Player2()
+        {
+            Console.WriteLine("Кем будете бить?\n1:Палладин\n2:Жрец\n3:Шаман\n4:Разбойник");
+            string a = Console.ReadLine();
+            switch (a)
+            {
+                case "1":
+                    Console.Clear();
+                    Check2(Palladin2);
+
+                    break;
+                case "2":
+                    Console.Clear();
+                    Check2(Priest2);
+
+                    break;
+                case "3":
+                    Console.Clear();
+                    Check2(Shaman2);
+
+                    break;
+                case "4":
+                    Console.Clear();
+                    Check2(Rogue2);
+
+                    break;
+
+            }
+
+            Console.ReadLine();
+        }
+         static void Check2(Character Agressor)
+         {
+             Console.WriteLine("Кого будете бить?\n1:Палладин\n2:Жрец\n3:Шаман\n4:Разбойник");
+             string b = Console.ReadLine();
+             switch (b)
+             {
+                 case "1":
+                     Console.Clear();
+                     Agressor.target = Palladin1;
+                     Agressor.Attack();
+                     Log.Update(AllCharacters);
+                     
+
+                     break;
+                 case "2":
+                     Console.Clear();
+                     Agressor.target = Priest1;
+                     Agressor.Attack();
+                     Log.Update(AllCharacters);
+                     
+
+                     break;
+                 case "3":
+                     Console.Clear();
+                     Agressor.target = Shaman1;
+                     Agressor.Attack();
+                     Log.Update(AllCharacters);
+                     
+
+                     break;
+                 case "4":
+                     Console.Clear();
+                     Agressor.target = Rogue1;
+                     Agressor.Attack();
+                     Log.Update(AllCharacters);
+                     
+
+                     break;
+
+             }
 
         }
     }
+
+       
+
+        }
+    
 
 
