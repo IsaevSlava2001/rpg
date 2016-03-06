@@ -9,7 +9,7 @@ namespace рпг
     {
         public Rogue(int HP, int MP, int damage)
         {
-            this.HP = HP;
+            this.Hp = HP;
             this.MP = MP;
             this.Damage = Damage;
         }

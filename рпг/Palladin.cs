@@ -9,7 +9,7 @@ namespace рпг
     {
         public Palladin(int HP, int MP, int Damage)
         {
-            this.HP = HP;
+            this.Hp = HP;
             this.MP = MP;
             this.Damage = Damage;
         }

@@ -69,6 +69,22 @@ namespace Game
             label14.Visible = true;
             label15.Visible = true;
             label16.Visible = true;
+            progressBar1.Visible = true;
+            progressBar2.Visible = true;
+            progressBar3.Visible = true;
+            progressBar4.Visible = true;
+            progressBar5.Visible = true;
+            progressBar6.Visible = true;
+            progressBar7.Visible = true;
+            progressBar8.Visible = true;
+            progressBar9.Visible = true;
+            progressBar10.Visible = true;
+            progressBar11.Visible = true;
+            progressBar12.Visible = true;
+            progressBar13.Visible = true;
+            progressBar14.Visible = true;
+            progressBar15.Visible = true;
+            progressBar16.Visible = true;
 
             Startgamebutton.Visible = false;
             
@@ -86,36 +102,69 @@ namespace Game
             Character Shaman2 = new Shaman(500, 700, 50);
             Character Rogue1 = new Rogue(360, 500, 100);
             Character Rogue2 = new Rogue(360, 500, 100);
-            List<Character> AllCharacters = new List<Character>();
+            //List<Character> AllCharacters = new List<Character>();
 
-            {
+            //{
 
 
-                AllCharacters.Add(Palladin1);
-                AllCharacters.Add(Palladin2);
-                AllCharacters.Add(Priest1);
-                AllCharacters.Add(Priest2);
-                AllCharacters.Add(Shaman1);
-                AllCharacters.Add(Shaman2);
-                AllCharacters.Add(Rogue1);
-                AllCharacters.Add(Rogue2);
-            }
-            label1.Text = (" " + AllCharacters[0].HP);
-            label2.Text = (" " + AllCharacters[0].MP);
-            label3.Text = (" " + AllCharacters[1].HP);
-            label4.Text = (" " + AllCharacters[1].MP);
-            label5.Text = (" " + AllCharacters[2].HP);
-            label6.Text = (" " + AllCharacters[2].MP);
-            label7.Text = (" " + AllCharacters[3].HP);
-            label8.Text = (" " + AllCharacters[3].MP);
-            label9.Text = (" " + AllCharacters[4].HP);
-            label10.Text = (" " + AllCharacters[4].MP);
-            label11.Text = (" " + AllCharacters[5].HP);
-            label12.Text = (" " + AllCharacters[5].MP);
-            label13.Text = (" " + AllCharacters[6].HP);
-            label14.Text = (" " + AllCharacters[6].MP);
-            label15.Text = (" " + AllCharacters[7].HP);
-            label16.Text= (" " + AllCharacters[7].MP);
+            //    AllCharacters.Add(Palladin1);
+            //    AllCharacters.Add(Palladin2);
+            //    AllCharacters.Add(Priest1);
+            //    AllCharacters.Add(Priest2);
+            //    AllCharacters.Add(Shaman1);
+            //    AllCharacters.Add(Shaman2);
+            //    AllCharacters.Add(Rogue1);
+            //    AllCharacters.Add(Rogue2);
+            //}
+            //label1.Text = (" " + AllCharacters[0].HP);
+            label1.Text = ("здоровье " + Palladin1.Hp);
+            label2.Text = ("мана " + Palladin1.MP);
+            label3.Text = ("здоровье " + Priest1.Hp);
+            label4.Text = ("мана " + Priest1.MP);
+            label5.Text = ("здоровье " + Shaman1.Hp);
+            label6.Text = ("мана " + Shaman1.MP);
+            label7.Text = ("здоровье " + Rogue1.Hp);
+            label8.Text = ("мана " + Rogue1.MP);
+            label9.Text = ("здоровье " + Palladin2.Hp);
+            label10.Text = ("мана " + Palladin2.MP);
+            label11.Text = ("здоровье " + Priest2.Hp);
+            label12.Text = ("мана " + Priest2.MP);
+            label13.Text = ("здоровье " + Shaman2.Hp);
+            label14.Text = ("мана" + Shaman2.MP);
+            label15.Text = ("здоровье " + Rogue2.Hp);
+            label16.Text = ("мана " + Rogue2.MP);
+            progressBar1.Maximum = ( Palladin1.Hp);
+            progressBar2.Maximum = ( Palladin1.MP);
+            progressBar3.Maximum = (Priest1.Hp);
+            progressBar4.Maximum = ( Priest1.MP);
+            progressBar5.Maximum = ( + Shaman1.Hp);
+            progressBar6.Maximum = ( Shaman1.MP);
+            progressBar7.Maximum = ( Rogue1.Hp);
+            progressBar8.Maximum = (Rogue1.MP);
+            progressBar9.Maximum = (  Palladin2.Hp);
+            progressBar10.Maximum = ( Palladin2.MP);
+            progressBar11.Maximum = ( Priest2.Hp);
+            progressBar12.Maximum = ( Priest2.MP);
+            progressBar13.Maximum = ( Shaman2.Hp);
+            progressBar14.Maximum = ( Shaman2.MP);
+            progressBar15.Maximum = ( Rogue2.Hp);
+            progressBar16.Maximum = (Rogue2.MP);
+            progressBar1.Value = (Palladin1.Hp);
+            progressBar2.Value = (Palladin1.MP);
+            progressBar3.Value = (Priest1.Hp);
+            progressBar4.Value = (Priest1.MP);
+            progressBar5.Value = (+Shaman1.Hp);
+            progressBar6.Value = (Shaman1.MP);
+            progressBar7.Value = (Rogue1.Hp);
+            progressBar8.Value = (Rogue1.MP);
+            progressBar9.Value = (Palladin2.Hp);
+            progressBar10.Value = (Palladin2.MP);
+            progressBar11.Value = (Priest2.Hp);
+            progressBar12.Value = (Priest2.MP);
+            progressBar13.Value = (Shaman2.Hp);
+            progressBar14.Value = (Shaman2.MP);
+            progressBar15.Value = (Rogue2.Hp);
+            progressBar16.Value = (Rogue2.MP);
 
             //label1.Text = (" " + AllCharacters[0].HP);
             //label1.Text = (" " + AllCharacters[0].HP);

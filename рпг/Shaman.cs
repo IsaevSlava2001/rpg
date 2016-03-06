@@ -9,7 +9,7 @@ namespace рпг
     {
        public Shaman(int HP, int MP, int damage)
         {
-            this.HP = HP;
+            this.Hp = HP;
             this.MP = MP;
             this.Damage = Damage;
         }

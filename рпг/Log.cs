@@ -13,28 +13,28 @@ namespace рпг
 
            Console.WriteLine("-------");
            Console.WriteLine("Команда 1");
-           Console.WriteLine("HP палладин," + AllCharacters[0].HP);
+           Console.WriteLine("HP палладин," + AllCharacters[0].Hp);
            Console.WriteLine("-------");
            Console.WriteLine("Команда 1");
-           Console.WriteLine("HP Жрец," + AllCharacters[2].HP);
+           Console.WriteLine("HP Жрец," + AllCharacters[2].Hp);
            Console.WriteLine("-------");
            Console.WriteLine("Команда 1");
-           Console.WriteLine("HP Шаман," + AllCharacters[4].HP);
+           Console.WriteLine("HP Шаман," + AllCharacters[4].Hp);
            Console.WriteLine("-------");
            Console.WriteLine("Команда 1");
-           Console.WriteLine("HP Разбойник," + AllCharacters[6].HP);
+           Console.WriteLine("HP Разбойник," + AllCharacters[6].Hp);
            Console.WriteLine("-------");
            Console.WriteLine("Команда 2");
-           Console.WriteLine("HP палладин," + AllCharacters[1].HP);
+           Console.WriteLine("HP палладин," + AllCharacters[1].Hp);
            Console.WriteLine("-------");
            Console.WriteLine("Команда 2");
-           Console.WriteLine("HP Жрец," + AllCharacters[3].HP);
+           Console.WriteLine("HP Жрец," + AllCharacters[3].Hp);
            Console.WriteLine("-------");
            Console.WriteLine("Команда 2");
-           Console.WriteLine("HP Шаман," + AllCharacters[5].HP);
+           Console.WriteLine("HP Шаман," + AllCharacters[5].Hp);
            Console.WriteLine("-------");
            Console.WriteLine("Команда 2");
-           Console.WriteLine("HP Разбойник," + AllCharacters[7].HP);
+           Console.WriteLine("HP Разбойник," + AllCharacters[7].Hp);
 
        }
        //static void CheckHell(List < Character > AllCharacters)
