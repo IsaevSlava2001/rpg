@@ -45,6 +45,7 @@ namespace Game
 
         private void Startgamebutton_Click(object sender, EventArgs e)
         {
+            //Startgamebutton.Text = "Начать игру";
             button1.Visible = true;
             button2.Visible = true;
             button3.Visible = true;
@@ -86,22 +87,23 @@ namespace Game
             progressBar15.Visible = true;
             progressBar16.Visible = true;
 
-            Startgamebutton.Visible = false;
+            
             
         }
-
+        Character Palladin1 = new Palladin(800, 400, 80);
+        Character Palladin2 = new Palladin(800, 400, 80);
+        Character Priest1 = new Priest(400, 900, 30);
+        Character Priest2 = new Priest(400, 900, 30);
+        Character Shaman1 = new Shaman(500, 700, 50);
+        Character Shaman2 = new Shaman(500, 700, 50);
+        Character Rogue1 = new Rogue(360, 500, 100);
+        Character Rogue2 = new Rogue(360, 500, 100);
+        Character agressor;
         private void Form1_Load(object sender, EventArgs e)
         {
 
             
-                Character Palladin1 = new Palladin(800, 400, 80);
-            Character Palladin2 = new Palladin(800, 400, 80);
-            Character Priest1 = new Priest(400, 900, 30);
-            Character Priest2 = new Priest(400, 900, 30);
-            Character Shaman1 = new Shaman(500, 700, 50);
-            Character Shaman2 = new Shaman(500, 700, 50);
-            Character Rogue1 = new Rogue(360, 500, 100);
-            Character Rogue2 = new Rogue(360, 500, 100);
+            
             //List<Character> AllCharacters = new List<Character>();
 
             //{
@@ -117,6 +119,11 @@ namespace Game
             //    AllCharacters.Add(Rogue2);
             //}
             //label1.Text = (" " + AllCharacters[0].HP);
+            Startgamebutton.Text = "команда 1";
+            panel4.Visible = false;
+
+
+
             label1.Text = ("здоровье " + Palladin1.Hp);
             label2.Text = ("мана " + Palladin1.MP);
             label3.Text = ("здоровье " + Priest1.Hp);
@@ -165,6 +172,7 @@ namespace Game
             progressBar14.Value = (Shaman2.MP);
             progressBar15.Value = (Rogue2.Hp);
             progressBar16.Value = (Rogue2.MP);
+            
 
             //label1.Text = (" " + AllCharacters[0].HP);
             //label1.Text = (" " + AllCharacters[0].HP);
@@ -174,6 +182,73 @@ namespace Game
 
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+            agressor = Palladin1;
+            
+
+            
+
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            agressor = Priest1;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            agressor = Rogue1;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            agressor = Shaman1;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Palladin2.Hp = Palladin2.Hp - agressor.Damage;
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Priest2.Hp = Priest2.Hp - agressor.Damage;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Rogue2.Hp = Rogue2.Hp - agressor.Damage;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Shaman2.Hp = Shaman2.Hp - agressor.Damage;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Shaman1.Hp = Shaman1.Hp - agressor.Damage;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Palladin1.Hp = Palladin1.Hp - agressor.Damage;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Priest1.Hp = Priest1.Hp - agressor.Damage;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Rogue1.Hp = Rogue1.Hp - agressor.Damage;
+        }
+
+       
    
     }
 }
