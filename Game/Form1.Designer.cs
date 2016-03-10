@@ -311,6 +311,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(313, 549);
             this.panel1.TabIndex = 41;
+          
             // 
             // progressBar8
             // 
@@ -580,6 +581,7 @@
             this.button16.TabIndex = 49;
             this.button16.Text = "атаковать";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button15
             // 
@@ -589,6 +591,7 @@
             this.button15.TabIndex = 48;
             this.button15.Text = "атаковать";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button14
             // 
@@ -598,6 +601,7 @@
             this.button14.TabIndex = 47;
             this.button14.Text = "атаковать";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button13
             // 
@@ -607,6 +611,7 @@
             this.button13.TabIndex = 46;
             this.button13.Text = "атаковать";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // Form1
             // 

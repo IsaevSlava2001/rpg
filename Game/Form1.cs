@@ -185,11 +185,11 @@ namespace Game
         private void button9_Click(object sender, EventArgs e)
         {
             agressor = Palladin1;
-            
-
-            
-
-
+            panel1.Visible = false;
+            button13.Visible = true;
+            button14.Visible = true;
+            button15.Visible = true;
+            button16.Visible = true;
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -248,7 +248,26 @@ namespace Game
             Rogue1.Hp = Rogue1.Hp - agressor.Damage;
         }
 
-       
+        private void button13_Click(object sender, EventArgs e)
+        {
+            agressor = Shaman2;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            agressor = Priest2;
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            agressor = Rogue2;
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            agressor = Shaman2;
+        }
+
    
     }
 }
