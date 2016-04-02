@@ -77,55 +77,56 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.progressBar24 = new System.Windows.Forms.ProgressBar();
-            this.progressBar23 = new System.Windows.Forms.ProgressBar();
-            this.progressBar22 = new System.Windows.Forms.ProgressBar();
-            this.progressBar21 = new System.Windows.Forms.ProgressBar();
-            this.progressBar20 = new System.Windows.Forms.ProgressBar();
-            this.progressBar19 = new System.Windows.Forms.ProgressBar();
-            this.progressBar18 = new System.Windows.Forms.ProgressBar();
-            this.progressBar17 = new System.Windows.Forms.ProgressBar();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button19 = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
-            this.button18 = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.button17 = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.buttonpalladin = new System.Windows.Forms.Button();
+            this.buttonshaman1atack = new System.Windows.Forms.Button();
+            this.progressBarrogue1mana = new System.Windows.Forms.ProgressBar();
+            this.progressBarshaman1mana = new System.Windows.Forms.ProgressBar();
+            this.progressBarrogue1health = new System.Windows.Forms.ProgressBar();
+            this.progressBarshaman1health = new System.Windows.Forms.ProgressBar();
+            this.progressBarpriest1mana = new System.Windows.Forms.ProgressBar();
+            this.progressBarpriest1health = new System.Windows.Forms.ProgressBar();
+            this.progressBarpalladin1mana = new System.Windows.Forms.ProgressBar();
+            this.progressBarpalladin1Health = new System.Windows.Forms.ProgressBar();
+            this.labelrogue1mana = new System.Windows.Forms.Label();
+            this.labelshaman1mana = new System.Windows.Forms.Label();
+            this.labelpriest1mana = new System.Windows.Forms.Label();
+            this.labelpalladin1mana = new System.Windows.Forms.Label();
+            this.buttonrogue1atack = new System.Windows.Forms.Button();
+            this.buttonshaman1 = new System.Windows.Forms.Button();
+            this.buttonrogue1 = new System.Windows.Forms.Button();
+            this.labelrogue1health = new System.Windows.Forms.Label();
+            this.buttonpriest1atack = new System.Windows.Forms.Button();
+            this.labelshaman1health = new System.Windows.Forms.Label();
+            this.buttonpalladin1atack = new System.Windows.Forms.Button();
+            this.labelpriest1health = new System.Windows.Forms.Label();
+            this.buttonpriest1 = new System.Windows.Forms.Button();
+            this.labelpalladin1Health = new System.Windows.Forms.Label();
+            this.buttonpalladin1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.progressBar32 = new System.Windows.Forms.ProgressBar();
-            this.label31 = new System.Windows.Forms.Label();
-            this.progressBar31 = new System.Windows.Forms.ProgressBar();
-            this.label32 = new System.Windows.Forms.Label();
-            this.progressBar30 = new System.Windows.Forms.ProgressBar();
-            this.label24 = new System.Windows.Forms.Label();
-            this.progressBar29 = new System.Windows.Forms.ProgressBar();
-            this.button24 = new System.Windows.Forms.Button();
-            this.progressBar28 = new System.Windows.Forms.ProgressBar();
-            this.label30 = new System.Windows.Forms.Label();
-            this.progressBar27 = new System.Windows.Forms.ProgressBar();
-            this.label23 = new System.Windows.Forms.Label();
-            this.progressBar26 = new System.Windows.Forms.ProgressBar();
-            this.label29 = new System.Windows.Forms.Label();
-            this.progressBar25 = new System.Windows.Forms.ProgressBar();
-            this.button25 = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.button30 = new System.Windows.Forms.Button();
-            this.label21 = new System.Windows.Forms.Label();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.progressBarrogue2mana = new System.Windows.Forms.ProgressBar();
+            this.labelpriest2mana = new System.Windows.Forms.Label();
+            this.progressBarshaman2mana = new System.Windows.Forms.ProgressBar();
+            this.labelpalladin2mana = new System.Windows.Forms.Label();
+            this.progressBarrogue2health = new System.Windows.Forms.ProgressBar();
+            this.labelrogue2health = new System.Windows.Forms.Label();
+            this.progressBarshaman2health = new System.Windows.Forms.ProgressBar();
+            this.buttonrogue2atack = new System.Windows.Forms.Button();
+            this.progressBarpriest2mana = new System.Windows.Forms.ProgressBar();
+            this.labelrogue2mana = new System.Windows.Forms.Label();
+            this.progressBarpalladin2mana = new System.Windows.Forms.ProgressBar();
+            this.labelshaman2health = new System.Windows.Forms.Label();
+            this.progressBarpriest2health = new System.Windows.Forms.ProgressBar();
+            this.labelshaman2mana = new System.Windows.Forms.Label();
+            this.progressBarpalladin2health = new System.Windows.Forms.ProgressBar();
+            this.buttonpalladin2 = new System.Windows.Forms.Button();
+            this.labelpriest2health = new System.Windows.Forms.Label();
+            this.buttonshaman2atack = new System.Windows.Forms.Button();
+            this.labelpalladin2health = new System.Windows.Forms.Label();
+            this.buttonrogue2 = new System.Windows.Forms.Button();
+            this.buttonshaman2 = new System.Windows.Forms.Button();
+            this.buttonpriest2atack = new System.Windows.Forms.Button();
+            this.buttonpriest2 = new System.Windows.Forms.Button();
+            this.buttonpalladin2atack = new System.Windows.Forms.Button();
+            this.comandlabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -544,461 +545,473 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.progressBar24);
-            this.panel1.Controls.Add(this.progressBar23);
-            this.panel1.Controls.Add(this.progressBar22);
-            this.panel1.Controls.Add(this.progressBar21);
-            this.panel1.Controls.Add(this.progressBar20);
-            this.panel1.Controls.Add(this.progressBar19);
-            this.panel1.Controls.Add(this.progressBar18);
-            this.panel1.Controls.Add(this.progressBar17);
-            this.panel1.Controls.Add(this.label28);
-            this.panel1.Controls.Add(this.label27);
-            this.panel1.Controls.Add(this.label26);
-            this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.button22);
-            this.panel1.Controls.Add(this.button21);
-            this.panel1.Controls.Add(this.button20);
-            this.panel1.Controls.Add(this.label20);
-            this.panel1.Controls.Add(this.button19);
-            this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.button18);
-            this.panel1.Controls.Add(this.label18);
-            this.panel1.Controls.Add(this.button17);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.buttonpalladin);
+            this.panel1.Controls.Add(this.buttonshaman1atack);
+            this.panel1.Controls.Add(this.progressBarrogue1mana);
+            this.panel1.Controls.Add(this.progressBarshaman1mana);
+            this.panel1.Controls.Add(this.progressBarrogue1health);
+            this.panel1.Controls.Add(this.progressBarshaman1health);
+            this.panel1.Controls.Add(this.progressBarpriest1mana);
+            this.panel1.Controls.Add(this.progressBarpriest1health);
+            this.panel1.Controls.Add(this.progressBarpalladin1mana);
+            this.panel1.Controls.Add(this.progressBarpalladin1Health);
+            this.panel1.Controls.Add(this.labelrogue1mana);
+            this.panel1.Controls.Add(this.labelshaman1mana);
+            this.panel1.Controls.Add(this.labelpriest1mana);
+            this.panel1.Controls.Add(this.labelpalladin1mana);
+            this.panel1.Controls.Add(this.buttonrogue1atack);
+            this.panel1.Controls.Add(this.buttonshaman1);
+            this.panel1.Controls.Add(this.buttonrogue1);
+            this.panel1.Controls.Add(this.labelrogue1health);
+            this.panel1.Controls.Add(this.buttonpriest1atack);
+            this.panel1.Controls.Add(this.labelshaman1health);
+            this.panel1.Controls.Add(this.buttonpalladin1atack);
+            this.panel1.Controls.Add(this.labelpriest1health);
+            this.panel1.Controls.Add(this.buttonpriest1);
+            this.panel1.Controls.Add(this.labelpalladin1Health);
+            this.panel1.Controls.Add(this.buttonpalladin1);
             this.panel1.Location = new System.Drawing.Point(3, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(305, 550);
             this.panel1.TabIndex = 54;
             // 
-            // progressBar24
+            // buttonshaman1atack
             // 
-            this.progressBar24.Location = new System.Drawing.Point(187, 478);
-            this.progressBar24.Name = "progressBar24";
-            this.progressBar24.Size = new System.Drawing.Size(56, 14);
-            this.progressBar24.TabIndex = 82;
+            this.buttonshaman1atack.Location = new System.Drawing.Point(9, 349);
+            this.buttonshaman1atack.Name = "buttonshaman1atack";
+            this.buttonshaman1atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonshaman1atack.TabIndex = 84;
+            this.buttonshaman1atack.Text = "атаковать";
+            this.buttonshaman1atack.UseVisualStyleBackColor = true;
             // 
-            // progressBar23
+            // progressBarrogue1mana
             // 
-            this.progressBar23.Location = new System.Drawing.Point(9, 478);
-            this.progressBar23.Name = "progressBar23";
-            this.progressBar23.Size = new System.Drawing.Size(56, 14);
-            this.progressBar23.TabIndex = 81;
+            this.progressBarrogue1mana.Location = new System.Drawing.Point(187, 478);
+            this.progressBarrogue1mana.Name = "progressBarrogue1mana";
+            this.progressBarrogue1mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarrogue1mana.TabIndex = 82;
             // 
-            // progressBar22
+            // progressBarshaman1mana
             // 
-            this.progressBar22.Location = new System.Drawing.Point(188, 426);
-            this.progressBar22.Name = "progressBar22";
-            this.progressBar22.Size = new System.Drawing.Size(56, 14);
-            this.progressBar22.TabIndex = 80;
+            this.progressBarshaman1mana.Location = new System.Drawing.Point(9, 478);
+            this.progressBarshaman1mana.Name = "progressBarshaman1mana";
+            this.progressBarshaman1mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarshaman1mana.TabIndex = 81;
             // 
-            // progressBar21
+            // progressBarrogue1health
             // 
-            this.progressBar21.Location = new System.Drawing.Point(3, 426);
-            this.progressBar21.Name = "progressBar21";
-            this.progressBar21.Size = new System.Drawing.Size(56, 14);
-            this.progressBar21.TabIndex = 79;
+            this.progressBarrogue1health.Location = new System.Drawing.Point(188, 426);
+            this.progressBarrogue1health.Name = "progressBarrogue1health";
+            this.progressBarrogue1health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarrogue1health.TabIndex = 80;
             // 
-            // progressBar20
+            // progressBarshaman1health
             // 
-            this.progressBar20.Location = new System.Drawing.Point(187, 182);
-            this.progressBar20.Name = "progressBar20";
-            this.progressBar20.Size = new System.Drawing.Size(56, 14);
-            this.progressBar20.TabIndex = 78;
+            this.progressBarshaman1health.Location = new System.Drawing.Point(3, 426);
+            this.progressBarshaman1health.Name = "progressBarshaman1health";
+            this.progressBarshaman1health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarshaman1health.TabIndex = 79;
             // 
-            // progressBar19
+            // progressBarpriest1mana
             // 
-            this.progressBar19.Location = new System.Drawing.Point(187, 127);
-            this.progressBar19.Name = "progressBar19";
-            this.progressBar19.Size = new System.Drawing.Size(56, 14);
-            this.progressBar19.TabIndex = 77;
+            this.progressBarpriest1mana.Location = new System.Drawing.Point(187, 182);
+            this.progressBarpriest1mana.Name = "progressBarpriest1mana";
+            this.progressBarpriest1mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpriest1mana.TabIndex = 78;
             // 
-            // progressBar18
+            // progressBarpriest1health
             // 
-            this.progressBar18.Location = new System.Drawing.Point(9, 182);
-            this.progressBar18.Name = "progressBar18";
-            this.progressBar18.Size = new System.Drawing.Size(56, 14);
-            this.progressBar18.TabIndex = 76;
+            this.progressBarpriest1health.Location = new System.Drawing.Point(187, 127);
+            this.progressBarpriest1health.Name = "progressBarpriest1health";
+            this.progressBarpriest1health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpriest1health.TabIndex = 77;
             // 
-            // progressBar17
+            // progressBarpalladin1mana
             // 
-            this.progressBar17.Location = new System.Drawing.Point(9, 127);
-            this.progressBar17.Name = "progressBar17";
-            this.progressBar17.Size = new System.Drawing.Size(56, 14);
-            this.progressBar17.TabIndex = 56;
+            this.progressBarpalladin1mana.Location = new System.Drawing.Point(9, 182);
+            this.progressBarpalladin1mana.Name = "progressBarpalladin1mana";
+            this.progressBarpalladin1mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpalladin1mana.TabIndex = 76;
             // 
-            // label28
+            // progressBarpalladin1Health
             // 
-            this.label28.Location = new System.Drawing.Point(185, 452);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(78, 23);
-            this.label28.TabIndex = 75;
-            this.label28.Text = "мана";
+            this.progressBarpalladin1Health.Location = new System.Drawing.Point(9, 127);
+            this.progressBarpalladin1Health.Name = "progressBarpalladin1Health";
+            this.progressBarpalladin1Health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpalladin1Health.TabIndex = 56;
             // 
-            // label27
+            // labelrogue1mana
             // 
-            this.label27.Location = new System.Drawing.Point(6, 452);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(78, 23);
-            this.label27.TabIndex = 74;
-            this.label27.Text = "мана";
+            this.labelrogue1mana.Location = new System.Drawing.Point(185, 452);
+            this.labelrogue1mana.Name = "labelrogue1mana";
+            this.labelrogue1mana.Size = new System.Drawing.Size(78, 23);
+            this.labelrogue1mana.TabIndex = 75;
+            this.labelrogue1mana.Text = "мана";
             // 
-            // label26
+            // labelshaman1mana
             // 
-            this.label26.Location = new System.Drawing.Point(190, 156);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(78, 23);
-            this.label26.TabIndex = 73;
-            this.label26.Text = "мана";
+            this.labelshaman1mana.Location = new System.Drawing.Point(6, 452);
+            this.labelshaman1mana.Name = "labelshaman1mana";
+            this.labelshaman1mana.Size = new System.Drawing.Size(78, 23);
+            this.labelshaman1mana.TabIndex = 74;
+            this.labelshaman1mana.Text = "мана";
             // 
-            // label25
+            // labelpriest1mana
             // 
-            this.label25.Location = new System.Drawing.Point(6, 156);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(78, 23);
-            this.label25.TabIndex = 72;
-            this.label25.Text = "мана";
+            this.labelpriest1mana.Location = new System.Drawing.Point(190, 156);
+            this.labelpriest1mana.Name = "labelpriest1mana";
+            this.labelpriest1mana.Size = new System.Drawing.Size(78, 23);
+            this.labelpriest1mana.TabIndex = 73;
+            this.labelpriest1mana.Text = "мана";
             // 
-            // button22
+            // labelpalladin1mana
             // 
-            this.button22.Location = new System.Drawing.Point(187, 349);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 62;
-            this.button22.Text = "атаковать";
-            this.button22.UseVisualStyleBackColor = true;
+            this.labelpalladin1mana.Location = new System.Drawing.Point(6, 156);
+            this.labelpalladin1mana.Name = "labelpalladin1mana";
+            this.labelpalladin1mana.Size = new System.Drawing.Size(78, 23);
+            this.labelpalladin1mana.TabIndex = 72;
+            this.labelpalladin1mana.Text = "мана";
             // 
-            // button21
+            // buttonrogue1atack
             // 
-            this.button21.Location = new System.Drawing.Point(9, 291);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 61;
-            this.button21.Text = "шаман";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.buttonrogue1atack.Location = new System.Drawing.Point(187, 349);
+            this.buttonrogue1atack.Name = "buttonrogue1atack";
+            this.buttonrogue1atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonrogue1atack.TabIndex = 62;
+            this.buttonrogue1atack.Text = "атаковать";
+            this.buttonrogue1atack.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // buttonshaman1
             // 
-            this.button20.Location = new System.Drawing.Point(187, 291);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 60;
-            this.button20.Text = "вор";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
+            this.buttonshaman1.Location = new System.Drawing.Point(9, 291);
+            this.buttonshaman1.Name = "buttonshaman1";
+            this.buttonshaman1.Size = new System.Drawing.Size(75, 23);
+            this.buttonshaman1.TabIndex = 61;
+            this.buttonshaman1.Text = "шаман";
+            this.buttonshaman1.UseVisualStyleBackColor = true;
+            this.buttonshaman1.Click += new System.EventHandler(this.button21_Click);
             // 
-            // label20
+            // buttonrogue1
             // 
-            this.label20.Location = new System.Drawing.Point(184, 400);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(78, 23);
-            this.label20.TabIndex = 59;
-            this.label20.Text = "здоровье";
+            this.buttonrogue1.Location = new System.Drawing.Point(187, 291);
+            this.buttonrogue1.Name = "buttonrogue1";
+            this.buttonrogue1.Size = new System.Drawing.Size(75, 23);
+            this.buttonrogue1.TabIndex = 60;
+            this.buttonrogue1.Text = "вор";
+            this.buttonrogue1.UseVisualStyleBackColor = true;
+            this.buttonrogue1.Click += new System.EventHandler(this.button20_Click);
             // 
-            // button19
+            // labelrogue1health
             // 
-            this.button19.Location = new System.Drawing.Point(187, 57);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 59;
-            this.button19.Text = "атаковать";
-            this.button19.UseVisualStyleBackColor = true;
+            this.labelrogue1health.Location = new System.Drawing.Point(184, 400);
+            this.labelrogue1health.Name = "labelrogue1health";
+            this.labelrogue1health.Size = new System.Drawing.Size(78, 23);
+            this.labelrogue1health.TabIndex = 59;
+            this.labelrogue1health.Text = "здоровье";
             // 
-            // label19
+            // buttonpriest1atack
             // 
-            this.label19.Location = new System.Drawing.Point(6, 400);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(78, 23);
-            this.label19.TabIndex = 58;
-            this.label19.Text = "здоровье";
+            this.buttonpriest1atack.Location = new System.Drawing.Point(187, 57);
+            this.buttonpriest1atack.Name = "buttonpriest1atack";
+            this.buttonpriest1atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonpriest1atack.TabIndex = 59;
+            this.buttonpriest1atack.Text = "атаковать";
+            this.buttonpriest1atack.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // labelshaman1health
             // 
-            this.button18.Location = new System.Drawing.Point(9, 57);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 58;
-            this.button18.Text = "атаковать";
-            this.button18.UseVisualStyleBackColor = true;
+            this.labelshaman1health.Location = new System.Drawing.Point(6, 400);
+            this.labelshaman1health.Name = "labelshaman1health";
+            this.labelshaman1health.Size = new System.Drawing.Size(78, 23);
+            this.labelshaman1health.TabIndex = 58;
+            this.labelshaman1health.Text = "здоровье";
             // 
-            // label18
+            // buttonpalladin1atack
             // 
-            this.label18.Location = new System.Drawing.Point(184, 104);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(78, 23);
-            this.label18.TabIndex = 57;
-            this.label18.Text = "здоровье";
+            this.buttonpalladin1atack.Location = new System.Drawing.Point(9, 57);
+            this.buttonpalladin1atack.Name = "buttonpalladin1atack";
+            this.buttonpalladin1atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonpalladin1atack.TabIndex = 58;
+            this.buttonpalladin1atack.Text = "атаковать";
+            this.buttonpalladin1atack.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // labelpriest1health
             // 
-            this.button17.Location = new System.Drawing.Point(187, 12);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 57;
-            this.button17.Text = "жрец";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
+            this.labelpriest1health.Location = new System.Drawing.Point(184, 104);
+            this.labelpriest1health.Name = "labelpriest1health";
+            this.labelpriest1health.Size = new System.Drawing.Size(78, 23);
+            this.labelpriest1health.TabIndex = 57;
+            this.labelpriest1health.Text = "здоровье";
             // 
-            // label17
+            // buttonpriest1
             // 
-            this.label17.Location = new System.Drawing.Point(6, 104);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(78, 23);
-            this.label17.TabIndex = 56;
-            this.label17.Text = "здоровье";
+            this.buttonpriest1.Location = new System.Drawing.Point(187, 12);
+            this.buttonpriest1.Name = "buttonpriest1";
+            this.buttonpriest1.Size = new System.Drawing.Size(75, 23);
+            this.buttonpriest1.TabIndex = 57;
+            this.buttonpriest1.Text = "жрец";
+            this.buttonpriest1.UseVisualStyleBackColor = true;
+            this.buttonpriest1.Click += new System.EventHandler(this.button17_Click);
             // 
-            // buttonpalladin
+            // labelpalladin1Health
             // 
-            this.buttonpalladin.Location = new System.Drawing.Point(9, 12);
-            this.buttonpalladin.Name = "buttonpalladin";
-            this.buttonpalladin.Size = new System.Drawing.Size(75, 23);
-            this.buttonpalladin.TabIndex = 56;
-            this.buttonpalladin.Text = "палладин";
-            this.buttonpalladin.UseVisualStyleBackColor = true;
-            this.buttonpalladin.Click += new System.EventHandler(this.buttonpalladin_Click);
+            this.labelpalladin1Health.Location = new System.Drawing.Point(6, 104);
+            this.labelpalladin1Health.Name = "labelpalladin1Health";
+            this.labelpalladin1Health.Size = new System.Drawing.Size(78, 23);
+            this.labelpalladin1Health.TabIndex = 56;
+            this.labelpalladin1Health.Text = "здоровье";
+            // 
+            // buttonpalladin1
+            // 
+            this.buttonpalladin1.Location = new System.Drawing.Point(9, 12);
+            this.buttonpalladin1.Name = "buttonpalladin1";
+            this.buttonpalladin1.Size = new System.Drawing.Size(75, 23);
+            this.buttonpalladin1.TabIndex = 56;
+            this.buttonpalladin1.Text = "палладин";
+            this.buttonpalladin1.UseVisualStyleBackColor = true;
+            this.buttonpalladin1.Click += new System.EventHandler(this.buttonpalladin_Click);
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.progressBar32);
-            this.panel2.Controls.Add(this.label31);
-            this.panel2.Controls.Add(this.progressBar31);
-            this.panel2.Controls.Add(this.label32);
-            this.panel2.Controls.Add(this.progressBar30);
-            this.panel2.Controls.Add(this.label24);
-            this.panel2.Controls.Add(this.progressBar29);
-            this.panel2.Controls.Add(this.button24);
-            this.panel2.Controls.Add(this.progressBar28);
-            this.panel2.Controls.Add(this.label30);
-            this.panel2.Controls.Add(this.progressBar27);
-            this.panel2.Controls.Add(this.label23);
-            this.panel2.Controls.Add(this.progressBar26);
-            this.panel2.Controls.Add(this.label29);
-            this.panel2.Controls.Add(this.progressBar25);
-            this.panel2.Controls.Add(this.button25);
-            this.panel2.Controls.Add(this.label22);
-            this.panel2.Controls.Add(this.button30);
-            this.panel2.Controls.Add(this.label21);
-            this.panel2.Controls.Add(this.button28);
-            this.panel2.Controls.Add(this.button31);
-            this.panel2.Controls.Add(this.button26);
-            this.panel2.Controls.Add(this.button27);
-            this.panel2.Controls.Add(this.button29);
+            this.panel2.Controls.Add(this.progressBarrogue2mana);
+            this.panel2.Controls.Add(this.labelpriest2mana);
+            this.panel2.Controls.Add(this.progressBarshaman2mana);
+            this.panel2.Controls.Add(this.labelpalladin2mana);
+            this.panel2.Controls.Add(this.progressBarrogue2health);
+            this.panel2.Controls.Add(this.labelrogue2health);
+            this.panel2.Controls.Add(this.progressBarshaman2health);
+            this.panel2.Controls.Add(this.buttonrogue2atack);
+            this.panel2.Controls.Add(this.progressBarpriest2mana);
+            this.panel2.Controls.Add(this.labelrogue2mana);
+            this.panel2.Controls.Add(this.progressBarpalladin2mana);
+            this.panel2.Controls.Add(this.labelshaman2health);
+            this.panel2.Controls.Add(this.progressBarpriest2health);
+            this.panel2.Controls.Add(this.labelshaman2mana);
+            this.panel2.Controls.Add(this.progressBarpalladin2health);
+            this.panel2.Controls.Add(this.buttonpalladin2);
+            this.panel2.Controls.Add(this.labelpriest2health);
+            this.panel2.Controls.Add(this.buttonshaman2atack);
+            this.panel2.Controls.Add(this.labelpalladin2health);
+            this.panel2.Controls.Add(this.buttonrogue2);
+            this.panel2.Controls.Add(this.buttonshaman2);
+            this.panel2.Controls.Add(this.buttonpriest2atack);
+            this.panel2.Controls.Add(this.buttonpriest2);
+            this.panel2.Controls.Add(this.buttonpalladin2atack);
             this.panel2.Location = new System.Drawing.Point(493, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(305, 550);
             this.panel2.TabIndex = 55;
             // 
-            // progressBar32
+            // progressBarrogue2mana
             // 
-            this.progressBar32.Location = new System.Drawing.Point(218, 478);
-            this.progressBar32.Name = "progressBar32";
-            this.progressBar32.Size = new System.Drawing.Size(56, 14);
-            this.progressBar32.TabIndex = 90;
+            this.progressBarrogue2mana.Location = new System.Drawing.Point(218, 478);
+            this.progressBarrogue2mana.Name = "progressBarrogue2mana";
+            this.progressBarrogue2mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarrogue2mana.TabIndex = 90;
             // 
-            // label31
+            // labelpriest2mana
             // 
-            this.label31.Location = new System.Drawing.Point(215, 156);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(78, 23);
-            this.label31.TabIndex = 78;
-            this.label31.Text = "мана";
+            this.labelpriest2mana.Location = new System.Drawing.Point(215, 156);
+            this.labelpriest2mana.Name = "labelpriest2mana";
+            this.labelpriest2mana.Size = new System.Drawing.Size(78, 23);
+            this.labelpriest2mana.TabIndex = 78;
+            this.labelpriest2mana.Text = "мана";
             // 
-            // progressBar31
+            // progressBarshaman2mana
             // 
-            this.progressBar31.Location = new System.Drawing.Point(14, 478);
-            this.progressBar31.Name = "progressBar31";
-            this.progressBar31.Size = new System.Drawing.Size(56, 14);
-            this.progressBar31.TabIndex = 89;
+            this.progressBarshaman2mana.Location = new System.Drawing.Point(14, 478);
+            this.progressBarshaman2mana.Name = "progressBarshaman2mana";
+            this.progressBarshaman2mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarshaman2mana.TabIndex = 89;
             // 
-            // label32
+            // labelpalladin2mana
             // 
-            this.label32.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label32.Location = new System.Drawing.Point(11, 156);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(78, 23);
-            this.label32.TabIndex = 79;
-            this.label32.Text = "мана";
+            this.labelpalladin2mana.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.labelpalladin2mana.Location = new System.Drawing.Point(11, 156);
+            this.labelpalladin2mana.Name = "labelpalladin2mana";
+            this.labelpalladin2mana.Size = new System.Drawing.Size(78, 23);
+            this.labelpalladin2mana.TabIndex = 79;
+            this.labelpalladin2mana.Text = "мана";
             // 
-            // progressBar30
+            // progressBarrogue2health
             // 
-            this.progressBar30.Location = new System.Drawing.Point(218, 426);
-            this.progressBar30.Name = "progressBar30";
-            this.progressBar30.Size = new System.Drawing.Size(56, 14);
-            this.progressBar30.TabIndex = 88;
+            this.progressBarrogue2health.Location = new System.Drawing.Point(218, 426);
+            this.progressBarrogue2health.Name = "progressBarrogue2health";
+            this.progressBarrogue2health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarrogue2health.TabIndex = 88;
             // 
-            // label24
+            // labelrogue2health
             // 
-            this.label24.Location = new System.Drawing.Point(215, 400);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(78, 23);
-            this.label24.TabIndex = 63;
-            this.label24.Text = "здоровье";
+            this.labelrogue2health.Location = new System.Drawing.Point(215, 400);
+            this.labelrogue2health.Name = "labelrogue2health";
+            this.labelrogue2health.Size = new System.Drawing.Size(78, 23);
+            this.labelrogue2health.TabIndex = 63;
+            this.labelrogue2health.Text = "здоровье";
             // 
-            // progressBar29
+            // progressBarshaman2health
             // 
-            this.progressBar29.Location = new System.Drawing.Point(14, 426);
-            this.progressBar29.Name = "progressBar29";
-            this.progressBar29.Size = new System.Drawing.Size(56, 14);
-            this.progressBar29.TabIndex = 87;
+            this.progressBarshaman2health.Location = new System.Drawing.Point(14, 426);
+            this.progressBarshaman2health.Name = "progressBarshaman2health";
+            this.progressBarshaman2health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarshaman2health.TabIndex = 87;
             // 
-            // button24
+            // buttonrogue2atack
             // 
-            this.button24.Location = new System.Drawing.Point(218, 349);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 64;
-            this.button24.Text = "атаковать";
-            this.button24.UseVisualStyleBackColor = true;
+            this.buttonrogue2atack.Location = new System.Drawing.Point(218, 349);
+            this.buttonrogue2atack.Name = "buttonrogue2atack";
+            this.buttonrogue2atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonrogue2atack.TabIndex = 64;
+            this.buttonrogue2atack.Text = "атаковать";
+            this.buttonrogue2atack.UseVisualStyleBackColor = true;
+            this.buttonrogue2atack.Click += new System.EventHandler(this.button24_Click);
             // 
-            // progressBar28
+            // progressBarpriest2mana
             // 
-            this.progressBar28.Location = new System.Drawing.Point(218, 182);
-            this.progressBar28.Name = "progressBar28";
-            this.progressBar28.Size = new System.Drawing.Size(56, 14);
-            this.progressBar28.TabIndex = 86;
+            this.progressBarpriest2mana.Location = new System.Drawing.Point(218, 182);
+            this.progressBarpriest2mana.Name = "progressBarpriest2mana";
+            this.progressBarpriest2mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpriest2mana.TabIndex = 86;
             // 
-            // label30
+            // labelrogue2mana
             // 
-            this.label30.Location = new System.Drawing.Point(215, 452);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(78, 23);
-            this.label30.TabIndex = 77;
-            this.label30.Text = "мана";
+            this.labelrogue2mana.Location = new System.Drawing.Point(215, 452);
+            this.labelrogue2mana.Name = "labelrogue2mana";
+            this.labelrogue2mana.Size = new System.Drawing.Size(78, 23);
+            this.labelrogue2mana.TabIndex = 77;
+            this.labelrogue2mana.Text = "мана";
             // 
-            // progressBar27
+            // progressBarpalladin2mana
             // 
-            this.progressBar27.Location = new System.Drawing.Point(14, 182);
-            this.progressBar27.Name = "progressBar27";
-            this.progressBar27.Size = new System.Drawing.Size(56, 14);
-            this.progressBar27.TabIndex = 85;
+            this.progressBarpalladin2mana.Location = new System.Drawing.Point(14, 182);
+            this.progressBarpalladin2mana.Name = "progressBarpalladin2mana";
+            this.progressBarpalladin2mana.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpalladin2mana.TabIndex = 85;
             // 
-            // label23
+            // labelshaman2health
             // 
-            this.label23.Location = new System.Drawing.Point(11, 400);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(78, 23);
-            this.label23.TabIndex = 62;
-            this.label23.Text = "здоровье";
+            this.labelshaman2health.Location = new System.Drawing.Point(11, 400);
+            this.labelshaman2health.Name = "labelshaman2health";
+            this.labelshaman2health.Size = new System.Drawing.Size(78, 23);
+            this.labelshaman2health.TabIndex = 62;
+            this.labelshaman2health.Text = "здоровье";
             // 
-            // progressBar26
+            // progressBarpriest2health
             // 
-            this.progressBar26.Location = new System.Drawing.Point(218, 127);
-            this.progressBar26.Name = "progressBar26";
-            this.progressBar26.Size = new System.Drawing.Size(56, 14);
-            this.progressBar26.TabIndex = 84;
+            this.progressBarpriest2health.Location = new System.Drawing.Point(218, 127);
+            this.progressBarpriest2health.Name = "progressBarpriest2health";
+            this.progressBarpriest2health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpriest2health.TabIndex = 84;
             // 
-            // label29
+            // labelshaman2mana
             // 
-            this.label29.Location = new System.Drawing.Point(11, 452);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(78, 23);
-            this.label29.TabIndex = 76;
-            this.label29.Text = "мана";
+            this.labelshaman2mana.Location = new System.Drawing.Point(11, 452);
+            this.labelshaman2mana.Name = "labelshaman2mana";
+            this.labelshaman2mana.Size = new System.Drawing.Size(78, 23);
+            this.labelshaman2mana.TabIndex = 76;
+            this.labelshaman2mana.Text = "мана";
             // 
-            // progressBar25
+            // progressBarpalladin2health
             // 
-            this.progressBar25.Location = new System.Drawing.Point(14, 127);
-            this.progressBar25.Name = "progressBar25";
-            this.progressBar25.Size = new System.Drawing.Size(56, 14);
-            this.progressBar25.TabIndex = 83;
+            this.progressBarpalladin2health.Location = new System.Drawing.Point(14, 127);
+            this.progressBarpalladin2health.Name = "progressBarpalladin2health";
+            this.progressBarpalladin2health.Size = new System.Drawing.Size(56, 14);
+            this.progressBarpalladin2health.TabIndex = 83;
             // 
-            // button25
+            // buttonpalladin2
             // 
-            this.button25.Location = new System.Drawing.Point(14, 12);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(75, 23);
-            this.button25.TabIndex = 65;
-            this.button25.Text = "палладин";
-            this.button25.UseVisualStyleBackColor = true;
+            this.buttonpalladin2.Location = new System.Drawing.Point(14, 12);
+            this.buttonpalladin2.Name = "buttonpalladin2";
+            this.buttonpalladin2.Size = new System.Drawing.Size(75, 23);
+            this.buttonpalladin2.TabIndex = 65;
+            this.buttonpalladin2.Text = "палладин";
+            this.buttonpalladin2.UseVisualStyleBackColor = true;
             // 
-            // label22
+            // labelpriest2health
             // 
-            this.label22.Location = new System.Drawing.Point(215, 104);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(78, 23);
-            this.label22.TabIndex = 61;
-            this.label22.Text = "здоровье";
+            this.labelpriest2health.Location = new System.Drawing.Point(215, 104);
+            this.labelpriest2health.Name = "labelpriest2health";
+            this.labelpriest2health.Size = new System.Drawing.Size(78, 23);
+            this.labelpriest2health.TabIndex = 61;
+            this.labelpriest2health.Text = "здоровье";
             // 
-            // button30
+            // buttonshaman2atack
             // 
-            this.button30.Location = new System.Drawing.Point(14, 349);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(75, 23);
-            this.button30.TabIndex = 70;
-            this.button30.Text = "атаковать";
-            this.button30.UseVisualStyleBackColor = true;
+            this.buttonshaman2atack.Location = new System.Drawing.Point(14, 349);
+            this.buttonshaman2atack.Name = "buttonshaman2atack";
+            this.buttonshaman2atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonshaman2atack.TabIndex = 70;
+            this.buttonshaman2atack.Text = "атаковать";
+            this.buttonshaman2atack.UseVisualStyleBackColor = true;
+            this.buttonshaman2atack.Click += new System.EventHandler(this.button30_Click);
             // 
-            // label21
+            // labelpalladin2health
             // 
-            this.label21.Location = new System.Drawing.Point(11, 104);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(78, 23);
-            this.label21.TabIndex = 60;
-            this.label21.Text = "здоровье";
+            this.labelpalladin2health.Location = new System.Drawing.Point(11, 104);
+            this.labelpalladin2health.Name = "labelpalladin2health";
+            this.labelpalladin2health.Size = new System.Drawing.Size(78, 23);
+            this.labelpalladin2health.TabIndex = 60;
+            this.labelpalladin2health.Text = "здоровье";
             // 
-            // button28
+            // buttonrogue2
             // 
-            this.button28.Location = new System.Drawing.Point(218, 291);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(75, 23);
-            this.button28.TabIndex = 68;
-            this.button28.Text = "вор";
-            this.button28.UseVisualStyleBackColor = true;
+            this.buttonrogue2.Location = new System.Drawing.Point(218, 291);
+            this.buttonrogue2.Name = "buttonrogue2";
+            this.buttonrogue2.Size = new System.Drawing.Size(75, 23);
+            this.buttonrogue2.TabIndex = 68;
+            this.buttonrogue2.Text = "вор";
+            this.buttonrogue2.UseVisualStyleBackColor = true;
             // 
-            // button31
+            // buttonshaman2
             // 
-            this.button31.Location = new System.Drawing.Point(14, 291);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 71;
-            this.button31.Text = "шаман";
-            this.button31.UseVisualStyleBackColor = true;
+            this.buttonshaman2.Location = new System.Drawing.Point(14, 291);
+            this.buttonshaman2.Name = "buttonshaman2";
+            this.buttonshaman2.Size = new System.Drawing.Size(75, 23);
+            this.buttonshaman2.TabIndex = 71;
+            this.buttonshaman2.Text = "шаман";
+            this.buttonshaman2.UseVisualStyleBackColor = true;
             // 
-            // button26
+            // buttonpriest2atack
             // 
-            this.button26.Location = new System.Drawing.Point(218, 57);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(75, 23);
-            this.button26.TabIndex = 66;
-            this.button26.Text = "атаковать";
-            this.button26.UseVisualStyleBackColor = true;
+            this.buttonpriest2atack.Location = new System.Drawing.Point(218, 57);
+            this.buttonpriest2atack.Name = "buttonpriest2atack";
+            this.buttonpriest2atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonpriest2atack.TabIndex = 66;
+            this.buttonpriest2atack.Text = "атаковать";
+            this.buttonpriest2atack.UseVisualStyleBackColor = true;
+            this.buttonpriest2atack.Click += new System.EventHandler(this.button26_Click);
             // 
-            // button27
+            // buttonpriest2
             // 
-            this.button27.Location = new System.Drawing.Point(218, 12);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(75, 23);
-            this.button27.TabIndex = 67;
-            this.button27.Text = "жрец";
-            this.button27.UseVisualStyleBackColor = true;
+            this.buttonpriest2.Location = new System.Drawing.Point(218, 12);
+            this.buttonpriest2.Name = "buttonpriest2";
+            this.buttonpriest2.Size = new System.Drawing.Size(75, 23);
+            this.buttonpriest2.TabIndex = 67;
+            this.buttonpriest2.Text = "жрец";
+            this.buttonpriest2.UseVisualStyleBackColor = true;
+            this.buttonpriest2.Click += new System.EventHandler(this.button27_Click);
             // 
-            // button29
+            // buttonpalladin2atack
             // 
-            this.button29.Location = new System.Drawing.Point(14, 57);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(75, 23);
-            this.button29.TabIndex = 69;
-            this.button29.Text = "атаковать";
-            this.button29.UseVisualStyleBackColor = true;
-            this.button29.Click += new System.EventHandler(this.button29_Click);
+            this.buttonpalladin2atack.Location = new System.Drawing.Point(14, 57);
+            this.buttonpalladin2atack.Name = "buttonpalladin2atack";
+            this.buttonpalladin2atack.Size = new System.Drawing.Size(75, 23);
+            this.buttonpalladin2atack.TabIndex = 69;
+            this.buttonpalladin2atack.Text = "атаковать";
+            this.buttonpalladin2atack.UseVisualStyleBackColor = true;
+            this.buttonpalladin2atack.Click += new System.EventHandler(this.button29_Click);
             // 
-            // button8
+            // comandlabel
             // 
-            this.button8.Location = new System.Drawing.Point(9, 349);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 84;
-            this.button8.Text = "атаковать";
-            this.button8.UseVisualStyleBackColor = true;
+            this.comandlabel.Location = new System.Drawing.Point(337, 280);
+            this.comandlabel.Name = "comandlabel";
+            this.comandlabel.Size = new System.Drawing.Size(103, 23);
+            this.comandlabel.TabIndex = 56;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 548);
+            this.Controls.Add(this.comandlabel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Startgamebutton);
@@ -1063,55 +1076,56 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ProgressBar progressBar24;
-        private System.Windows.Forms.ProgressBar progressBar23;
-        private System.Windows.Forms.ProgressBar progressBar22;
-        private System.Windows.Forms.ProgressBar progressBar21;
-        private System.Windows.Forms.ProgressBar progressBar20;
-        private System.Windows.Forms.ProgressBar progressBar19;
-        private System.Windows.Forms.ProgressBar progressBar18;
-        private System.Windows.Forms.ProgressBar progressBar17;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button buttonpalladin;
+        private System.Windows.Forms.ProgressBar progressBarrogue1mana;
+        private System.Windows.Forms.ProgressBar progressBarshaman1mana;
+        private System.Windows.Forms.ProgressBar progressBarrogue1health;
+        private System.Windows.Forms.ProgressBar progressBarshaman1health;
+        private System.Windows.Forms.ProgressBar progressBarpriest1mana;
+        private System.Windows.Forms.ProgressBar progressBarpriest1health;
+        private System.Windows.Forms.ProgressBar progressBarpalladin1mana;
+        private System.Windows.Forms.ProgressBar progressBarpalladin1Health;
+        private System.Windows.Forms.Label labelrogue1mana;
+        private System.Windows.Forms.Label labelshaman1mana;
+        private System.Windows.Forms.Label labelpriest1mana;
+        private System.Windows.Forms.Label labelpalladin1mana;
+        private System.Windows.Forms.Button buttonrogue1atack;
+        private System.Windows.Forms.Button buttonshaman1;
+        private System.Windows.Forms.Button buttonrogue1;
+        private System.Windows.Forms.Label labelrogue1health;
+        private System.Windows.Forms.Button buttonpriest1atack;
+        private System.Windows.Forms.Label labelshaman1health;
+        private System.Windows.Forms.Button buttonpalladin1atack;
+        private System.Windows.Forms.Label labelpriest1health;
+        private System.Windows.Forms.Button buttonpriest1;
+        private System.Windows.Forms.Label labelpalladin1Health;
+        private System.Windows.Forms.Button buttonpalladin1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ProgressBar progressBar32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.ProgressBar progressBar31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.ProgressBar progressBar30;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.ProgressBar progressBar29;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.ProgressBar progressBar28;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.ProgressBar progressBar27;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ProgressBar progressBar26;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.ProgressBar progressBar25;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.ProgressBar progressBarrogue2mana;
+        private System.Windows.Forms.Label labelpriest2mana;
+        private System.Windows.Forms.ProgressBar progressBarshaman2mana;
+        private System.Windows.Forms.Label labelpalladin2mana;
+        private System.Windows.Forms.ProgressBar progressBarrogue2health;
+        private System.Windows.Forms.Label labelrogue2health;
+        private System.Windows.Forms.ProgressBar progressBarshaman2health;
+        private System.Windows.Forms.Button buttonrogue2atack;
+        private System.Windows.Forms.ProgressBar progressBarpriest2mana;
+        private System.Windows.Forms.Label labelrogue2mana;
+        private System.Windows.Forms.ProgressBar progressBarpalladin2mana;
+        private System.Windows.Forms.Label labelshaman2health;
+        private System.Windows.Forms.ProgressBar progressBarpriest2health;
+        private System.Windows.Forms.Label labelshaman2mana;
+        private System.Windows.Forms.ProgressBar progressBarpalladin2health;
+        private System.Windows.Forms.Button buttonpalladin2;
+        private System.Windows.Forms.Label labelpriest2health;
+        private System.Windows.Forms.Button buttonshaman2atack;
+        private System.Windows.Forms.Label labelpalladin2health;
+        private System.Windows.Forms.Button buttonrogue2;
+        private System.Windows.Forms.Button buttonshaman2;
+        private System.Windows.Forms.Button buttonpriest2atack;
+        private System.Windows.Forms.Button buttonpriest2;
+        private System.Windows.Forms.Button buttonpalladin2atack;
+        private System.Windows.Forms.Button buttonshaman1atack;
+        private System.Windows.Forms.Label comandlabel;
     }
 }
 
