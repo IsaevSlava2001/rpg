@@ -234,7 +234,7 @@ namespace Game
 
         private void button21_Click(object sender, EventArgs e)
         {
-            Shaman1 = agressor;
+            agressor = Shaman1;
             buttonshaman1.Visible = false;
             buttonrogue1.Visible = false;
             buttonpriest1.Visible = false;
@@ -429,6 +429,11 @@ namespace Game
             progressBarrogue2mana.Visible = true;
 
 
+
+        }
+
+        private void buttonpalladin2_Click(object sender, EventArgs e)
+        {
 
         }
     }

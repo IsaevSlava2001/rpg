@@ -9,7 +9,26 @@ namespace рпг
     {
         public Character target;
         private int hp;
-
+        public virtual string Skill1()
+        {
+            return "da";
+        }
+        public virtual string Skill2()
+        {
+            return "da";
+        }
+        public virtual string Skill3()
+        {
+            return "da";
+        }
+        public virtual string Skill4()
+        {
+            return "da";
+        }
+       // public virtual string Skill5()
+       // {
+       //     return "da";
+      //  }
         public int Hp
         {
             get { return hp; }

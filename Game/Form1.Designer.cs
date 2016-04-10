@@ -777,6 +777,7 @@
             this.panel2.Controls.Add(this.progressBarshaman2mana);
             this.panel2.Controls.Add(this.labelpalladin2mana);
             this.panel2.Controls.Add(this.progressBarrogue2health);
+            this.panel2.Controls.Add(this.buttonshaman2);
             this.panel2.Controls.Add(this.labelrogue2health);
             this.panel2.Controls.Add(this.progressBarshaman2health);
             this.panel2.Controls.Add(this.buttonrogue2atack);
@@ -792,7 +793,6 @@
             this.panel2.Controls.Add(this.buttonshaman2atack);
             this.panel2.Controls.Add(this.labelpalladin2health);
             this.panel2.Controls.Add(this.buttonrogue2);
-            this.panel2.Controls.Add(this.buttonshaman2);
             this.panel2.Controls.Add(this.buttonpriest2atack);
             this.panel2.Controls.Add(this.buttonpriest2);
             this.panel2.Controls.Add(this.buttonpalladin2atack);
@@ -924,6 +924,7 @@
             this.buttonpalladin2.TabIndex = 65;
             this.buttonpalladin2.Text = "палладин";
             this.buttonpalladin2.UseVisualStyleBackColor = true;
+            this.buttonpalladin2.Click += new System.EventHandler(this.buttonpalladin2_Click);
             // 
             // labelpriest2health
             // 
